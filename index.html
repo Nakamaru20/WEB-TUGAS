@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kumpul Tugas Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Kumpul Tugas Mahasiswa</h1>
+
+<form id="formTugas">
+  <input type="text" id="nama" placeholder="Nama" required>
+  <input type="text" id="nim" placeholder="NIM" required>
+  <input type="text" id="tugas" placeholder="Link Tugas / Judul" required>
+  <button type="submit">Kirim</button>
+</form>
+
+<h2>Daftar Tugas</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>NIM</th>
+      <th>Tugas</th>
+    </tr>
+  </thead>
+  <tbody id="dataTugas"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
